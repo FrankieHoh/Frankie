@@ -110,12 +110,12 @@ keyword-filter = (null)
 
 [Proxy Group]
 PROXY = select, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0
-HK = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(HK|香港|港|Hongkong), interval=600, timeout=3, hidden=true
-US = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(美|美国|🇺🇸|US|us), interval=600, timeout=3, hidden=true
-HK = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(HK|香港|港|🇭🇰|Hongkong), interval=600, timeout=3, hidden=true
-TW = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(台|台湾|TW), interval=600, timeout=3, hidden=true
-JP = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(日|日本|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP), interval=600, timeout=3, hidden=true
-SG = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(狮城|新|新加坡|🇸🇬|SG), interval=600, timeout=3, hidden=true
+HK = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(HK|香港|港|Hongkong), interval=600, timeout=3
+US = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(美|美国|🇺🇸|US|us), interval=600, timeout=3
+HK = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(HK|香港|港|🇭🇰|Hongkong), interval=600, timeout=3
+TW = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(台|台湾|TW), interval=600, timeout=3
+JP = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(日|日本|东京|大阪|泉日|埼玉|沪日|深日|🇯🇵|JP), interval=600, timeout=3
+SG = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=0, policy-regex-filter=(狮城|新|新加坡|🇸🇬|SG), interval=600, timeout=3
 
 Global = select, US, HK, TW, JP, SG, FINAL, DIRECT
 GlobalMedia = select, US, HK, TW, JP, SG, FINAL, DIRECT
