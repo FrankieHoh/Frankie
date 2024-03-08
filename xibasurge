@@ -110,18 +110,18 @@ TR = url-test, policy-path=https://sub.store/download/collection/xibasurge, upda
 QLYUN = url-test, policy-path=https://sub.store/download/collection/xibasurge, update-interval=600, policy-regex-filter=(?=.*(🧋))^((?!(RU|PK|ID|TR|TH|HP)).)*$, interval=600, timeout=3, tolerance=30
 
 
-Telegram, HK, SG, TW, JP, US, select, FINAL, DIRECT
-Instagram, HK, SG, TW, JP, US, select, FINAL, DIRECT
-Google, HK, SG, TW, JP, US, select, FINAL, DIRECT
-YouTube, HK, SG, TW, JP, US, select, FINAL, DIRECT
-Microsoft, HK, SG, TW, JP, US, select, FINAL, DIRECT
-OpenAI, HK, SG, TW, JP, US, select, FINAL, DIRECT
-TikTok, HK, SG, TW, JP, US, select, FINAL, DIRECT
-Disney, HK, SG, TW, JP, US, select, FINAL, DIRECT
-Netfilx, HK, SG, TW, JP, US, select, FINAL, DIRECT
-Spotify, HK, SG, TW, JP, US, select, FINAL, DIRECT
-iQIYI, HK, SG, TW, JP, US, select, FINAL, DIRECT
-Others, HK, SG, TW, JP, US, select, FINAL, DIRECT
+Telegram = HK, SG, TW, JP, US, select, FINAL, DIRECT
+Instagram = HK, SG, TW, JP, US, select, FINAL, DIRECT
+Google = HK, SG, TW, JP, US, select, FINAL, DIRECT
+YouTube = HK, SG, TW, JP, US, select, FINAL, DIRECT
+Microsoft = HK, SG, TW, JP, US, select, FINAL, DIRECT
+OpenAI = HK, SG, TW, JP, US, select, FINAL, DIRECT
+TikTok = HK, SG, TW, JP, US, select, FINAL, DIRECT
+Disney = HK, SG, TW, JP, US, select, FINAL, DIRECT
+Netfilx = HK, SG, TW, JP, US, select, FINAL, DIRECT
+Spotify = HK, SG, TW, JP, US, select, FINAL, DIRECT
+iQIYI = HK, SG, TW, JP, US, select, FINAL, DIRECT
+Others = HK, SG, TW, JP, US, select, FINAL, DIRECT
 
 
 
